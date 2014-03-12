@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "minindn-js": {
+        "path": "../minindn-js"
+      }
+    },
+    "packages": {
+      "minindn-js": {
+        "path": "../minindn-js"
+      }
+    }
+  }
+}

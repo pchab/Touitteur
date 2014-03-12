@@ -1,0 +1,10 @@
+{
+  "meteor": {
+    "branch": "master"
+  },
+  "packages": {
+    "minindn-js" : {
+      "path": "/home/xrlt4176/Documents/minindn-js"
+    }
+  }
+} 
