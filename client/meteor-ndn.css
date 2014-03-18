@@ -1,0 +1,31 @@
+#follow {
+	display: inline-block;
+  top: 30px;
+  right: 30px;
+	float: right;
+  width: 20%;
+  height: 100%;
+}
+
+#unfollow {
+	display: inline-block;
+  top: 30px;
+  right: 30px;
+	float: left;
+  width: 20%;
+  height: 100%;
+}
+
+.user {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.user.selected {
+  background-color: yellow;
+}
+
+.message {
+  padding: 5px;
+  clear:both;
+}
