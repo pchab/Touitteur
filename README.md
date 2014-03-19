@@ -1,3 +1,3 @@
-Meteor-NDN
+Touitteur
 
-A NDN demo using meteor framework
+A Twitter-like app using Meteor framework to demonstrate CCN assets.
