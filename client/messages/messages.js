@@ -1,3 +1,5 @@
+Meteor.subscribe('messages');
+
 Template.messageBoard.messages = function () {
   return Messages.find(
     {'id': 

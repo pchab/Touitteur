@@ -1,20 +1,20 @@
 #follow, #unfollow {
+  position: absolute;
 	display: inline-block;
   top: 30px;
-  right: 30px;
   width: 20%;
   margin: 10px;
   padding: 5px;
-  min-height: 500px;
+  height: 80%;
   border-style: solid;
 }
 
 #unfollow {
-	float: left;
+  left: 30px;
 }
 
 #follow {
-  float: right;
+  right: 30px;
 }
 
 .user {
@@ -24,6 +24,12 @@
 
 .user.selected {
   background-color: yellow;
-  border-radius: 1px;
+  border-radius: 5px;
+  border-width: 1px;
   border-style: solid; 
+}
+
+.follow, .unfollow {
+  position: absolute;
+  bottom: 10px;
 }

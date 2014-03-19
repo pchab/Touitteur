@@ -1,4 +1,10 @@
+#message-board {
+	position: absolute;
+	left: 30%;
+	right: 30%;
+}
+
 .message {
-  padding: 5px;
-  clear:both;
+	margin: 5px;
+	padding: 5px;
 }

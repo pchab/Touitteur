@@ -1,3 +1,5 @@
+Meteor.subscribe('users');
+
 Accounts.ui.config({
   passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
 });
@@ -7,7 +9,7 @@ Template.user.selected = function () {
 };
 
 Template.user.events({
-  'click': function () {
+	'click': function () {
     Session.set('selected_user', this._id);
   }
 });

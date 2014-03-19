@@ -4,19 +4,19 @@
 	{{/each}}
 
 	{{#if error}}
-    <span id="error" style="color: red;">
-      {{error}}
-    </span>
-  {{/if}}
+		<span id="error" style="color: red;">
+			{{error}}
+		</span>
+	{{/if}}
 
-  <div class="new-post">
+	<div class="new-post">
 		<input type="text" id="new_post" placeholder="new post"/>
 		<input type="button" class="post" value="Post" />
 	</div>
 </template>
 
 <template name="message">
-	<div>
-  	<span class="message">{{user}} wrote: {{text}}</span>
-  </div>
+	<div class="message">
+		<span>{{user}} wrote: {{text}}</span>
+	</div>
 </template>
