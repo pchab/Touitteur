@@ -1,0 +1,18 @@
+<head>
+  <title>meteor-ndn</title>
+</head>
+
+<body>
+	{{loginButtons}}
+	{{#if currentUser}}
+		<div id="unfollow">
+			{{> unfollow}}
+		</div>
+		<div id="follow">
+			{{> follow}}
+		</div>
+		<div id="message-board">
+			{{> messageBoard}}
+		</div>
+	{{/if}}
+</body>
