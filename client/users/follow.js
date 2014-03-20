@@ -3,10 +3,8 @@ Template.follow.users = function () {
     {'_id': {
       $not: Meteor.userId(),
       $nin: Meteor.user().profile.following
-    } },
-    {fields: {
-      username: 1
-    } }
+    }},
+    {fields: {'username': 1}, sort: {'username': 1}}
   );
 };
 

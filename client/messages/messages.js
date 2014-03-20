@@ -48,3 +48,7 @@ Validation = {
     }
   }
 };
+
+Template.message.date = function () {
+  return (new Date(this.timestamp)).toLocaleString();
+}

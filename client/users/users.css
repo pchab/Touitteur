@@ -17,6 +17,11 @@
   right: 30px;
 }
 
+#users {
+  height: 80%;
+  overflow: auto;
+}
+
 .user {
   cursor: pointer;
   padding: 5px;

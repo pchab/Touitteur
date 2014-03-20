@@ -2,9 +2,26 @@
 	position: absolute;
 	left: 30%;
 	right: 30%;
+	top: 30px;
+  margin: 10px;
+  padding: 5px;
+  height: 80%;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.message-block {
+	height: 80%;
+  overflow: auto;
 }
 
 .message {
 	margin: 5px;
 	padding: 5px;
+}
+
+.new-post {
+	position: absolute;
+  bottom: 10px;
 }

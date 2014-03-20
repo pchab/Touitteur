@@ -1,7 +1,9 @@
 <template name="messageBoard">
-	{{#each messages}}
-		{{> message}}
-	{{/each}}
+	<div class="message-block">
+		{{#each messages}}
+			{{> message}}
+		{{/each}}
+	</div>
 
 	{{#if error}}
 		<span id="error" style="color: red;">
@@ -17,6 +19,8 @@
 
 <template name="message">
 	<div class="message">
-		<span>{{user}} wrote: {{text}}</span>
+		<a title="{{date}}">
+			<span>{{user}} wrote: {{text}}</span>
+		</a>
 	</div>
 </template>

@@ -1,14 +1,18 @@
 <template name="unfollow">
-	{{#each users}}
-    {{> user}}
-  {{/each}}
+  <div class="users">
+  	{{#each users}}
+      {{> user}}
+    {{/each}}
+  </div>
   <input type="button" class="unfollow" value="Unfollow" />
 </template>
 
 <template name="follow">
-	{{#each users}}
-    {{> user}}
-  {{/each}}
+	<div class="users">
+    {{#each users}}
+      {{> user}}
+    {{/each}}
+  </div>
   <input type="button" class="follow" value="Follow" />
 </template>
 
